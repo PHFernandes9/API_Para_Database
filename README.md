@@ -62,7 +62,7 @@
       except Exception as e:
           print(f"Erro ao inserir no banco: {e}")
 
-- Por útlimo IF__name... para executar o scrip epenas quando ele for chamado e while True para criar um loop infinito que irá se repetir indefinidamente dessa forma coletando dados. E a função sleep.tinme(5), na qual irá repetir esse loop a cada 5 segundos. Dessa forma inserindo esses dados a cada 5 segundos no banco de dados.
+- Por útlimo IF__name... para executar o scrip epenas quando ele for chamado e while True para criar um loop infinito que irá se repetir indefinidamente dessa forma coletando dados. E a função sleep.time(5), na qual irá repetir esse loop a cada 5 segundos. Dessa forma inserindo esses dados a cada 5 segundos no banco de dados.
 
  
       if __name__ == "__main__":
