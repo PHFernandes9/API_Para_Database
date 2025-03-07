@@ -2,9 +2,9 @@
 -----------------------------------------------------------------------
 ## 📋 Descrição
 
-  - Pense no seguinte caso: seu gestor pede para você atualizar algum valor no banco de dados,por exemplo o valor do dolar ou do Bitcon. 
-  - Esse processo é manual e esssas moedas podem sofrer flutuações bruncas durante o dia.
-  - Nessa caso um saída seria automatizar essa tarefa. Para isso é possível utilizar uma API, para coletar os e utilzar o python para inserir no banco de dados.
+  - Pense no seguinte caso: seu gestor pede para você atualizar algum valor no banco de dados da empresa,por exemplo o valor do dolar ou do Bitcon. 
+  - Esse processo é manual e esssas moedas podem sofrer flutuações bruscas durante o dia.
+  - Nessa caso um saída seria automatizar essa tarefa. Para isso é possível utilizar uma API, para coletar as informações e utilzar python para inseri-las no banco de dados.
 
   
 ## 📖 Importante Biblibotecas 
@@ -62,7 +62,7 @@
       except Exception as e:
           print(f"Erro ao inserir no banco: {e}")
 
-- Por útlimo IF__name... para executar o scrip epenas quando ele for chamado e while True para criar um loop infinito que irá se repetir indefinidamente dessa forma coletando dados. E a função sleep.time(5), na qual irá repetir esse loop a cada 5 segundos. Dessa forma inserindo esses dados a cada 5 segundos no banco de dados.
+- Por útlimo if__name... para executar o scrip epenas quando ele for chamado e while True para criar um loop infinito que irá se repetir indefinidamente dessa forma coletando dados. E a função sleep.time(5), na qual irá repetir esse loop a cada 5 segundos. Dessa forma inserindo esses dados a cada 5 segundos no banco de dados.
 
  
       if __name__ == "__main__":
